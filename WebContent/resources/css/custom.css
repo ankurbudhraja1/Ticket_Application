@@ -1,0 +1,224 @@
+body{
+	overflow-x:hidden;
+	
+	width:100%;
+}
+.header{
+height: 80px;
+background: #002660;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.logo{
+height:60px;
+float:left;
+padding:20;
+}
+.icons{
+
+padding:20;
+
+}
+.copyright{
+color:#0a0101;
+}
+.title{
+height:80px;
+background:#23aec9;
+text-align: center;
+font-size: 26px;
+position: relative;
+color: #FEFEFE;
+padding: 20px 0 10px 0;
+
+}
+
+.title1{
+
+background:#53b1a0;
+height:80px;
+text-align: center;
+ font-size: 26px;
+position: relative;
+color: #FEFEFE;
+padding: 20px 0 10px 0;
+}
+
+.title2{
+
+background:#5eb75e;
+height:80px;
+text-align: center;
+font-size: 26px;
+position: relative;
+color: #FEFEFE;
+padding: 20px 0 10px 0;
+}
+
+/* .navbar-default .custom-nav li a:hover,
+.navbar-default .custom-nav li.active a:hover{
+	background:#002660;
+	color:#f5f5f5;
+} */
+/* .custom-nav li a:hover,
+.custom-nav li.active a:hover{
+	background:red !important;
+	color:#ffffff !important;
+} */
+.h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.collapse{
+background:#002660;
+
+}
+.bs-example{
+padding: 20px;
+width:100%;
+
+}
+.span6{
+background: #002660;
+padding:20px;
+width:100%;
+color:#fff;
+
+}
+.footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+.nav-item{
+background: #002660;	
+	
+}
+
+.table-heading{
+	padding:20px;
+}
+
+.bottom-text{
+padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 20px;
+	color:#af7830;
+
+}
+.table-data-heading th{
+	
+	background:#337ab7;
+	color:ffffff;
+	text-align:center;
+}
+
+
+
+.footer .footer-content .bottom-bar .span6 .bottom-text a{
+color:#f7c973;
+}
+.table{
+	text-align:center;
+}
+.filter-heading{
+	padding-left:20px;
+	padding-bottom: 20px;
+}
+
+.styled-select select {
+
+   background: #3395dc;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 100%;
+}
+.well-lg{
+	background:#c8f6ff;
+	padding-bottom:20px;
+}
+.outer-box{
+	
+	padding-bottom:20px;
+}
+
+.score-title{
+	
+background:#53b1a0;
+height:45px;
+text-align: center;
+font-size: 15px;
+position: relative;
+color: #FEFEFE;
+padding: 10px 0 10px 0;
+	
+}
+.score-content{
+	
+background:#53b1a0;
+height:45px;
+text-align: center;
+font-size: 15px;
+position: relative;
+color: #FEFEFE;
+padding: 10px 0 10px 0;
+	
+}
+.loan-content{
+	background:#53b1a0;
+height:45px;
+text-align: center;
+font-size: 15px;
+position: relative;
+color: #FEFEFE;
+padding: 10px 0 10px 0;
+	
+	
+}
+.loan-title{
+	background:#53b1a0;
+height:45px;
+text-align: center;
+font-size: 15px;
+position: relative;
+color: #FEFEFE;
+padding: 10px 0 10px 0;
+
+}
+
+.summary{
+padding-right:200px;
+padding-left:200px;
+}
+
+.dropdown-box  .col-md-4{
+	padding-bottom:10px;
+	
+}
+.search-button{
+	color:fffff;
+	background:#002660;
+	
+}
+.data-filters{
+	background:#46b8da;
+	margin-bottom:3px;
+	margin-top:3px;
+	padding-top:5px;
+	padding-bottom:8px;
+}
+
+
+
+
+
+
+
+

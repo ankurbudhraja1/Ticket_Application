@@ -1,0 +1,396 @@
+/*
+Global
+============================= */
+
+body{
+	font-family:'Source Sans Pro', sans-serif;
+	color:#666;
+	font-size:16px;
+	font-weight: 400;
+	  -webkit-font-smoothing: antialiased;
+     font-smoothing: antialiased;
+}
+
+* {
+     text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+
+p{line-height: 24px}
+a{color:#0088cc;}
+a:hover{text-decoration: none;}
+
+
+
+h1,h2,h3,h4,h5,h6{ font-family:'Source Sans Pro', sans-serif}
+
+h1{font-size:50px; font-weight: 200; color: #555; margin-bottom: 20px;}
+h2{font-size: 30px; font-weight: 300; color:#444; margin: 30px 0}
+h3{font-size: 20px; font-weight: 400; margin: 20px 0;}
+h4{font-size:18px; font-weight: 400}
+
+/* 
+HEADER ROW STYLE
+===========================*/
+#header-row{
+	background: #f5f5f5;
+	border-bottom:1px solid #eee;
+	padding: 15px 0;
+}
+
+#header-row .navbar{margin:10px 0 0 0;}
+
+#header-row .navbar .navbar-inner{
+	border:none;
+	box-shadow: none;
+	margin: 0;
+	background: transparent;
+}
+
+#header-row .navbar .navbar-inner ul.nav > li > a{
+	box-shadow: none;
+	background: transparent;
+	color: #0088cc;
+}
+#header-row .navbar .navbar-inner ul.nav li.active a{
+	color: #333;
+}
+/* 
+Center Row 
+===========================*/
+
+.center-container {
+    margin-top: 50px;
+}
+
+/* 
+Carousel
+===========================*/
+
+.carousel-control{
+	background: transparent;
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	top:50%;	
+}
+
+.carousel-control.right{right:-30px;}
+.carousel-control.left{left:-30px;}
+
+
+
+.carousel{
+	height: 500px;
+	background: url(../img/slide-bg.png) no-repeat bottom center;
+}
+
+.carousel img{
+	max-width: 100%;
+}
+
+.carousel-caption {
+      background-color: transparent;
+      position: relative;
+      max-width: 100%;
+      padding: 0 20px;
+      margin-top:20%;
+
+}
+
+.carousel-caption h1{
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	color:#555;
+	font-weight:200;
+}
+.carousel-caption .lead{
+	color: #888;
+	font-size: 18px;
+	line-height: 24px;
+	padding-bottom: 40px;
+	font-weight: 400
+}
+
+
+/* Divider
+==================*/
+.hr-divider{
+	background: url(../img/slide-bg.png) no-repeat bottom center; 
+	width:1170px;
+	height: 100px;
+	margin-bottom: 50px;
+	display: block;
+	clear: both;}
+
+/*Feature
+==========================*/
+.feature-box{
+	margin-top: 5px;
+	text-align: center;
+}
+.cnt-title { text-align: center; margin-bottom: 50px;}
+.cnt-title span { 
+	font-size: 24px;
+	font-weight: 200;
+}
+
+/* Review
+==========================*/
+.review{
+	margin: 80px 0;
+}
+
+/* Page Header
+==========================*/
+
+.page-header{
+	border-bottom: 1px solid #f5f5f5;
+}
+
+
+/*Media
+========================*/
+
+.media{
+	margin-bottom:50px;
+}
+
+/*MAP
+========================*/
+#map-canvas{
+	height: 400px;
+	border: 15px solid #fff;
+	box-shadow:0 0 0 1px #f5f5f5;
+}
+
+
+/*MAP
+========================*/
+
+.blog-post{
+		border-bottom: 2px solid #f5f5f5;
+		padding:0 0 50px; 
+		margin-bottom: 40px;
+}
+
+
+.blog-post p{
+	margin: 20px 0;
+
+}
+
+
+.postmetadata{
+	margin-bottom: 20px;
+	padding: 5px 0;
+}
+
+.postmetadata ul{margin: 0; padding: 0}
+
+.postmetadata ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.postmetadata i{
+	margin: 4px 5px 0 0;
+}
+
+
+/*Sidebar
+========================*/
+
+.side-bar{margin-bottom: 30px;}
+
+.side-bar ul{margin: 0; padding: 0}
+.side-bar ul li{list-style: none;}
+
+.side-bar h3{margin-bottom: 10px}
+
+.recent-post strong {display: block; margin-bottom: 5px; color: #888 }
+
+.recent-post li{margin-bottom: 15px}
+
+/*Tags
+========================*/
+
+/*drop-down
+========================*/
+
+
+
+/* -------------------- Select Box Styles: bavotasan.com Method (with special adaptations by ericrasch.com) */
+/* -------------------- Source: http://bavotasan.com/2011/style-select-box-using-only-css/ */
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   text-align: center;
+}
+
+.styled-select.slate {
+   width: 240px;
+   height: 30px;
+   overflow: hidden;
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right #ddd;
+   border: 2px solid #ccc;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+
+/* -------------------- Rounded Corners */
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+/* -------------------- Colors: Background */
+.slate   { background-color: #ddd; }
+.green   { background-color: #779126; }
+.blue    { background-color: #3b8ec2; }
+.yellow  { background-color: #eec111; }
+.black   { background-color: #000; }
+
+/* -------------------- Colors: Text */
+.slate select   { color: #000; }
+.green select   { color: #fff; }
+.blue select    { color: #fff; }
+.yellow select  { color: #000; }
+.black select   { color: #fff; }
+
+
+/* -------------------- Select Box Styles: danielneumann.com Method */
+/* -------------------- Source: http://danielneumann.com/blog/how-to-style-dropdown-with-css-only/ */
+#mainselection select {
+   border: 0;
+   color: #737373;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 378px;
+   *width: 350px;
+   *background: #f2f2f2;
+   -webkit-appearance: none;
+   	text-align: center;
+
+}
+
+#mainselection {
+   overflow:hidden;
+   width:350px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+   background: #f2f2f2 url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 319px center;
+   text-align: center;
+
+}
+
+
+/* -------------------- Select Box Styles: stackoverflow.com Method */
+/* -------------------- Source: http://stackoverflow.com/a/5809186 */
+select#soflow, select#soflow-color {
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+
+select#soflow-color {
+   color: #fff;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+   background-color: #779126;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 15px;
+}
+
+
+/*table
+========================*/
+table, td, th {
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+/*Footer
+========================*/
+
+footer{
+border-top:1px solid #eee;
+background: #f5f5f5;
+padding: 30px 0;
+color: #ccc;
+margin-top:40%;
+}
+
+
+/* Responsive View
+=================================*/
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+
+

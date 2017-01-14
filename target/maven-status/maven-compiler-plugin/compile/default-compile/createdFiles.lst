@@ -1,0 +1,7 @@
+com\virtusa\model\Bank.class
+com\virtusa\model\Ticket.class
+com\virtusa\model\Dataset.class
+com\virtusa\controller\AppController.class
+com\virtusa\service\AppServiceImpl.class
+com\virtusa\dao\AppDAOImpl.class
+com\virtusa\dao\AppDAO.class
